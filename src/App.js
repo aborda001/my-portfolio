@@ -1,11 +1,23 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
+import Navbar from './components/navbar/Navbar';
+import './App.css';
 
-function App() {
-    return (
-        <div>
-            <h1>Hello, world!</h1>
-        </div>
-    );
-}
+const App = () => {
+  const [scrollHeight, setScrollHeight] = useState(0);
+
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    setScrollHeight(position);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+  }, [scrollHeight]);
+  return (
+    <div className="App">
+      <Navbar />
+    </div>
+  );
+};
 
 export default App;
