@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Cover.css";
 
 const Cover = () => {
@@ -10,14 +11,14 @@ const Cover = () => {
             Hello, <span></span>
           </h1>
           <h1>
-            My Name is <span></span>
+            My name is <span></span>
           </h1>
           <h1>
             Arnaldo <span></span>
           </h1>
-          <a href="#projects" type="button" className="cta">
-            Portfolio
-          </a>
+          <Link to="/projects" className="cta">
+            Portafolio
+          </Link>
         </div>
       </div>
     </section>
