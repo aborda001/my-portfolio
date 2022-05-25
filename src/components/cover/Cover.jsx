@@ -4,7 +4,7 @@ import "./Cover.css";
 
 const Cover = () => {
   return (
-    <section id="hero">
+    <div id="hero">
       <div className="hero container">
         <div>
           <h1>
@@ -21,7 +21,7 @@ const Cover = () => {
           </Link>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
