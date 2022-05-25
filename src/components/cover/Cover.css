@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 #hero {
   background-image: url(../../assets/images/background-cover.jpg);
   background-size: cover;
@@ -5,6 +11,15 @@
   position: relative;
   z-index: 1;
 }
+
+#hero .container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #hero::after {
   content: "";
   position: absolute;
@@ -25,7 +40,7 @@
 #hero h1 {
   display: block;
   width: fit-content;
-  font-size: 4rem;
+  font-size: 2.5rem;
   position: relative;
   color: transparent;
   animation: text_reveal 0.5s ease forwards;
@@ -61,6 +76,24 @@
   animation-delay: 2.5s;
 }
 
+#hero .cta {
+  display: inline-block;
+  padding: 10px 30px;
+  color: var(--color-grey0);
+  background-color: transparent;
+  border: 2px solid var(--color-secondary);
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 30px;
+  transition: 0.3s ease;
+  transition-property: background-color, color;
+}
+#hero .cta:hover {
+  color: var(--color-grey0);
+  background-color: var(--color-secondary);
+}
+
 /* Keyframes */
 @keyframes text_reveal_box {
   50% {
@@ -88,7 +121,11 @@
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
   #hero h1 {
-    font-size: 7rem;
+    font-size: 4rem;
+  }
+  #hero .cta {
+    font-size: 2rem;
+
   }
 }
 /* End Media Query For Tablet */
