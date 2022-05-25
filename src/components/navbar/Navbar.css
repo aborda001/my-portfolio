@@ -23,7 +23,7 @@
   box-shadow: var(--box-shadow-1);
 }
 .controls .control i {
-  font-size: 1.9rem !important;
+  font-size: 1.3rem;
   color: var(--color-grey-2);
   pointer-events: none;
 }
