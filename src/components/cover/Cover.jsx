@@ -14,10 +14,10 @@ const Cover = () => {
             My name is <span></span>
           </h1>
           <h1>
-            Arnaldo <span></span>
+            Arnaldo Borda<span></span>
           </h1>
           <Link to="/projects" className="cta">
-            Portafolio
+            Portfolio
           </Link>
         </div>
       </div>
