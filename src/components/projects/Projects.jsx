@@ -1,21 +1,18 @@
 import React from "react";
 import useGetProjects from "../../hooks/useGetProjects";
 import ProjectsItem from "./ProjectsItem";
+import Title from "../title/Title";
 import "./Projects.css";
 
 const Projects = () => {
   const projects = useGetProjects();
   return (
     <section id="projects" className="main-container">
-      <div className="main-title">
-        <h2>
-          My <span>Portfolio</span>
-          <span className="bg-text">My Work</span>
-        </h2>
-      </div>
-      <p className="port-text">
-        Here is some of my work that I've done in various programming languages.
-      </p>
+      <Title
+        title="My portfolio"
+        subTitle="My work"
+        description="Here is some of my work that I've done in various programming languages."
+      />
       <div className="portfolios">
         {projects.map((project) => (
           <ProjectsItem

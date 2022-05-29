@@ -10,11 +10,11 @@ const ProjectsItem = ({ title, image, description, code, link }) => {
       <div className="hover-items">
         <h3>{title}</h3>
         <div className="icons">
-          <a href={code} className="icon">
+          <a href={code} className="icon" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github"></i>
           </a>
-          <a href={link} className="icon">
-            <i className="fab fa-globe"></i>
+          <a href={link} className="icon" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-link"></i>
           </a>
         </div>
       </div>

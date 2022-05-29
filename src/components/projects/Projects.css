@@ -1,9 +1,3 @@
-#projects .port-text {
-  padding: 2rem 0;
-  text-align: center;
-  color: var(--color-white);
-}
-
 #projects .portfolios {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
