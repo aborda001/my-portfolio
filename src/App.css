@@ -62,56 +62,9 @@ p {
   letter-spacing: 0.05rem;
 }
 
-.main-title {
-  text-align: center;
-  font-size: 2.5rem;
-}
-
-.main-title h2 {
-  position: relative;
-  text-transform: uppercase;
-  font-size: 4rem;
-  font-weight: 700;
-}
-
-.main-title h2 span {
-  color: var(--color-secondary);
-}
-
-.main-title h2 .bg-text {
-  margin-top: -0.3rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  color: var(--color-grey-5);
-  transition: all 0.4s ease-in-out;
-  z-index: -1;
-  transform: translate(-50%, -50%);
-  font-weight: 800;
-  font-size: 6.3rem;
-}
-
 @media screen and (max-width: 1432px) {
   .main-container {
     padding: 7rem 11rem;
-  }
-
-  .main-title h2 .bg-text {
-    font-size: 5.5rem;
-  }
-}
-
-@media screen and (max-width: 1070px) {
-  .main-title h2 {
-    font-size: 4rem;
-  }
-
-  .main-title h2 span {
-    font-size: 4rem;
-  }
-
-  .main-title h2 .bg-text {
-    font-size: 4.5rem;
   }
 }
 
@@ -125,34 +78,10 @@ p {
   .main-container {
     padding: 7rem 3rem;
   }
-
-  .main-title h2 {
-    font-size: 3rem;
-  }
-
-  .main-title h2 span {
-    font-size: 3rem;
-  }
-
-  .main-title h2 .bg-text {
-    font-size: 4rem;
-  }
 }
 
 @media screen and (max-width: 600px) {
   .main-container {
     padding: 2rem 2.5rem !important;
-  }
-
-  .main-title h2 {
-    font-size: 2rem;
-  }
-
-  .main-title h2 span {
-    font-size: 2.3rem;
-  }
-
-  .main-title h2 .bg-text {
-    font-size: 2.3rem;
   }
 }
