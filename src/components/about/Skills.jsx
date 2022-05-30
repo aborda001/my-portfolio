@@ -13,16 +13,16 @@ const Skills = () => {
         <div className="slide-track">
           {skills.map((skill, index) => (
             <SkillsItem
-            url={skill.url}
-            alt={skill.alt}
-            key={index}
+              url={skill.url}
+              alt={skill.alt}
+              key={index}
             />
           ))}
           {skills.map((skill, index) => (
             <SkillsItem
-            url={skill.url}
-            alt={skill.alt}
-            key={index}
+              url={skill.url}
+              alt={skill.alt}
+              key={index}
             />
           ))}
         </div>
