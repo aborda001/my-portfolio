@@ -14,7 +14,7 @@ const ProjectsItem = ({ title, image, description, code, link }) => {
             <i className="fab fa-github"></i>
           </a>
           <a href={link} className="icon" target="_blank" rel="noopener noreferrer">
-            <i class="fas fa-link"></i>
+            <i className="fas fa-link"></i>
           </a>
         </div>
       </div>

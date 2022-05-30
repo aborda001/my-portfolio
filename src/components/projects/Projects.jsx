@@ -14,13 +14,14 @@ const Projects = () => {
         description="Here is some of my work that I've done in various programming languages."
       />
       <div className="portfolios">
-        {projects.map((project) => (
+        {projects.map((project, index) => (
           <ProjectsItem
             title={project.title}
             image={project.image}
             description={project.description}
             code={project.code}
             link={project.link}
+            key={index}
           />
         ))}
       </div>
