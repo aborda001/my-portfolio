@@ -24,7 +24,11 @@
 }
 
 .controls .control:hover {
-  background-color: var(--color-secondary-soft);
+  background-color: var(--color-secondary);
+}
+
+.controls .control:hover i {
+  color: var(--color-primary);
 }
 
 .controls .control i {
