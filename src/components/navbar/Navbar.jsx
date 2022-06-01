@@ -18,7 +18,7 @@ const Navbar = ({ activate }) => {
       <Link to="/projects" className={`control ${active[2]}`}>
         <i className="fas fa-briefcase"></i>
       </Link>
-      <Link to="/blog" className={`control ${active[3]}`}>
+      <Link to="/blog" className={`control ${active[3]} blog`}>
         <i className="far fa-newspaper"></i>
       </Link>
       <Link to="/contact" className={`control ${active[4]}`}>

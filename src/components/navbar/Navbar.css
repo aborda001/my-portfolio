@@ -23,6 +23,10 @@
   box-shadow: var(--box-shadow-1);
 }
 
+.controls .blog {
+  display: none;
+}
+
 .controls .control:hover {
   background-color: var(--color-secondary);
 }

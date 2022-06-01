@@ -37,19 +37,19 @@ const Information = () => {
           <span>: English, Spanish, Guaraní</span>
         </p>
       </div>
-      <div class="contact-icons">
-        <div class="contact-icon">
+      <div className="contact-icons">
+        <div className="contact-icon">
           <a href="/" target="_blank">
-            <i class="fab fa-facebook-f"></i>
+            <i className="fab fa-facebook-f"></i>
           </a>
           <a href="/" target="_blank">
-            <i class="fab fa-twitter"></i>
+            <i className="fab fa-twitter"></i>
           </a>
           <a href="/" target="_blank">
-            <i class="fab fa-github"></i>
+            <i className="fab fa-github"></i>
           </a>
           <a href="/" target="_blank">
-            <i class="fab fa-youtube"></i>
+            <i className="fab fa-youtube"></i>
           </a>
         </div>
       </div>
