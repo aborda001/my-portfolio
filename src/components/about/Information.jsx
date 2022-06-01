@@ -1,5 +1,7 @@
 import React from "react";
 
+import Download from "../download/Download";
+
 const Information = () => {
   return (
     <div className="info-container">
@@ -14,14 +16,7 @@ const Information = () => {
           consectetur, adipisicing elit. Harum non necessitatibus deleniti eum
           soluta.
         </p>
-        <div className="btn-con">
-          <a href="/" className="main-btn">
-            <span className="btn-text">Download CV</span>
-            <span className="btn-icon">
-              <i className="fas fa-download"></i>
-            </span>
-          </a>
-        </div>
+        <Download />
       </div>
     </div>
   );
