@@ -140,7 +140,7 @@
 }
 .timeline .timeline-item h5 + p {
   overflow: scroll;
-  height: 8rem;
+  height: 12rem;
 }
 
 @media screen and (max-width: 600px) {
