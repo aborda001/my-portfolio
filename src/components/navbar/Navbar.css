@@ -9,6 +9,7 @@
   justify-content: center;
   transform: translateY(-50%);
 }
+
 .controls .control {
   padding: 1rem;
   cursor: pointer;
@@ -21,10 +22,6 @@
   align-items: center;
   margin: 0.7rem 0;
   box-shadow: var(--box-shadow-1);
-}
-
-.controls .blog {
-  display: none;
 }
 
 .controls .control:hover {
@@ -40,10 +37,12 @@
   color: var(--color-grey-2);
   pointer-events: none;
 }
+
 .controls .active-btn {
   background-color: var(--color-secondary);
   transition: all 0.4s ease-in-out;
 }
+
 .controls .active-btn i {
   color: var(--color-white);
 }
@@ -59,6 +58,7 @@
     width: 100%;
     background-color: var(--color-grey-5);
   }
+
   .controls .control {
     margin: 1rem 0.3rem;
   }
