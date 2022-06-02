@@ -40,7 +40,7 @@ const Information = () => {
       <div className="contact-icons">
         <div className="contact-icon">
           <a href="/" target="_blank">
-            <i className="fab fa-facebook-f"></i>
+            <i className="fab fa-linkedin"></i>
           </a>
           <a href="/" target="_blank">
             <i className="fab fa-twitter"></i>
@@ -48,7 +48,7 @@ const Information = () => {
           <a href="/" target="_blank">
             <i className="fab fa-github"></i>
           </a>
-          <a href="/" target="_blank">
+          <a href="/" target="_blank" style={{ display: "none" }}>
             <i className="fab fa-youtube"></i>
           </a>
         </div>

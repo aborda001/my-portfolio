@@ -1,9 +1,11 @@
 import React from "react";
 
+import Download from "../../download/Download";
+
 const RightComponent = () => {
   return (
     <div className="right-contact">
-      <form action="" className="contact-form">
+      <div className="contact-form">
         <div className="input-control i-c-2">
           <input type="text" required placeholder="YOUR NAME" />
           <input type="email" required placeholder="YOUR EMAIL" />
@@ -21,14 +23,13 @@ const RightComponent = () => {
           ></textarea>
         </div>
         <div className="submit-btn">
-          <a href="/" className="main-btn">
-            <span className="btn-text">Download CV</span>
-            <span className="btn-icon">
-              <i className="fas fa-download"></i>
-            </span>
-          </a>
+          <button className="send-btn">
+            <span className="text">SUBMIT</span>
+            <i className="fas fa-check icon"></i>
+          </button>
+          <Download />
         </div>
-      </form>
+      </div>
     </div>
   );
 };
