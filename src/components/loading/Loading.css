@@ -1,0 +1,38 @@
+.div_contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div_centrado {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner {
+  border: 8px solid var(--color-secondary);
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border-left-color: var(--color-primary);
+
+  animation: spin 1.5s ease infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(720deg);
+  }
+}
