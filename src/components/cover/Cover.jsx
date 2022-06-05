@@ -15,7 +15,10 @@ const Cover = () => {
   return (
     <>
       {loading ? (
-        <Loading />
+        <div>
+          <Loading />
+          <div id="hero"></div>
+        </div>
       ) : (
         <div id="hero">
           <div className="hero container">

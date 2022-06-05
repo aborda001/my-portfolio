@@ -201,14 +201,13 @@
   }
 
   .contact-content .right-contact .submit-btn {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .send-btn {
     margin-bottom: 1rem;
     height: 3rem;
   }
-
 }
 
 @media screen and (max-width: 1432px) {
