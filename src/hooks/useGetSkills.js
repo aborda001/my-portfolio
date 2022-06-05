@@ -1,31 +1,31 @@
 const useGetSkills = () => {
   const data = [
     {
-      url: 'https://i.ibb.co/7Sfdtcf/react.png',
+      url: 'https://i.ibb.co/fqx4H8z/react.png',
       alt: 'REACT',
     },
     {
-      url: 'https://i.ibb.co/4JC498R/web.png',
+      url: 'https://i.ibb.co/NKcJJP9/web.png',
       alt: 'WEB',
     },
     {
-      url: 'https://i.ibb.co/m4Z4S15/git.png',
+      url: 'https://i.ibb.co/mTs5jNz/git.png',
       alt: 'GIT',
     },
     {
-      url: 'https://i.ibb.co/S6kW4Rf/github.png',
+      url: 'https://i.ibb.co/N1PhFBd/github.png',
       alt: 'GITHUB',
     },
     {
-      url: 'https://i.ibb.co/gRjPpK9/node-js.png',
+      url: 'https://i.ibb.co/Q6Rgx0c/node-js.png',
       alt: 'NODE',
     },
     {
-      url: 'https://i.ibb.co/Srgn1Jh/postgresql.png',
+      url: 'https://i.ibb.co/D1wYNGz/postgresql.png',
       alt: 'POSTGRES',
     },
     {
-      url: 'https://i.ibb.co/GW8c1Kk/pythonr.png',
+      url: 'https://i.ibb.co/4dzQ1kW/python.png',
       alt: 'PYTHON',
     },
   ];
