@@ -8,13 +8,11 @@ const Information = () => {
       <div className="left-about">
         <h4>Information About me</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-          labore nihil obcaecati consequatur. Debitis error doloremque, vero eos
-          vel nemo eius voluptatem dicta tenetur modi. <br /> <br /> La musica
-          delectus dolore fugiat exercitationem a, ipsum quidem quo enim natus
-          accusamus labore dolores nam. Unde. Lorem ipsum dolor sit amet
-          consectetur, adipisicing elit. Harum non necessitatibus deleniti eum
-          soluta.
+          Computer Engineering student. I love programming and everything
+          related to technology. I am passionate about learning new things,
+          regardless of the area.
+          <br /> <br />I am a self-taught programmer and i'm always looking for
+          new ways to improve my skills.
         </p>
         <Download />
       </div>

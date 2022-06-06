@@ -1,17 +1,17 @@
 import React from "react";
 
-const TimelineItem = ({ title, subTitle, description, date }) => {
+const TimelineItem = ({ title, subTitle, description, date, icon }) => {
   return (
     <div className="timeline-item">
       <div className="tl-icon">
-        <i className="fas fa-briefcase"></i>
+        <i className={icon}></i>
       </div>
       <p className="tl-duration">{date}</p>
       <h5>
         {title}
         <span> - {subTitle}</span>
       </h5>
-      <p>{description}</p>
+      {description && <p>{description}</p>}
     </div>
   );
 };

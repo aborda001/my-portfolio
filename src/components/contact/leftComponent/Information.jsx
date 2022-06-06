@@ -16,7 +16,12 @@ const Information = () => {
           <span>Email</span>
         </div>
         <p>
-          <span>: loremipsum@gmail.com</span>
+          <span>
+            :{" "}
+            <a href="mailto:arnaldoborda01@gmail.com">
+              arnaldoborda01@gmail.com
+            </a>
+          </span>
         </p>
       </div>
       <div className="contact-item">
@@ -25,7 +30,7 @@ const Information = () => {
           <span>Education</span>
         </div>
         <p>
-          <span>: Nosexd, University</span>
+          <span>: Catholic University</span>
         </p>
       </div>
       <div className="contact-item">
@@ -39,16 +44,34 @@ const Information = () => {
       </div>
       <div className="contact-icons">
         <div className="contact-icon">
-          <a href="/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/aborda001/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fab fa-linkedin"></i>
           </a>
-          <a href="/" target="_blank">
+          <a
+            href="/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ display: "none" }}
+          >
             <i className="fab fa-twitter"></i>
           </a>
-          <a href="/" target="_blank">
+          <a
+            href="https://github.com/aborda001/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fab fa-github"></i>
           </a>
-          <a href="/" target="_blank" style={{ display: "none" }}>
+          <a
+            href="/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ display: "none" }}
+          >
             <i className="fab fa-youtube"></i>
           </a>
         </div>
