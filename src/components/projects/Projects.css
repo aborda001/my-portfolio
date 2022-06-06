@@ -44,7 +44,7 @@
   overflow: scroll;
   height: 6rem;
   color: var(--color-white);
-  margin: 0.5rem 1rem 2rem;
+  margin: 0.5rem 1rem 0;
 }
 
 #projects .portfolios .portfolio-item .hover-items .icons {
@@ -99,6 +99,14 @@
 @media screen and (max-width: 660px) {
   #projects .portfolios {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  #projects .portfolios .portfolio-item .hover-items h3 + p {
+    margin: 0.5rem 1rem 0;
+  }
+
+  #projects .portfolio-item:hover .hover-items {
+    transform: scale(1.2);
   }
 }
 
