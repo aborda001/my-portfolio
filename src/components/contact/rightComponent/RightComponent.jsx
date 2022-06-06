@@ -4,9 +4,9 @@ import Download from "../../download/Download";
 
 const RightComponent = () => {
   const form = useRef(null);
-  const { SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY } = process.env;
 
   const handleSubmit = () => {
+    const { SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY } = process.env;
     const formData = new FormData(form.current);
     const data = {
       name: formData.get("name"),
