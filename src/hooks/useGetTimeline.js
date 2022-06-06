@@ -3,7 +3,7 @@ const useGetTimeline = () => {
     [
       {
         title: 'Fullstack Developer',
-        subTitle: 'Sisteas Guaraní',
+        subTitle: 'Sistemas Guaraní',
         date: 'Sept 2021 - Present: 10 months',
         description:
           'Responsible for the development and maintenance of systems as well as implementation of new systems. I work developing APIs with NodeJS and ExpressJS, and with frontend technologies such as HTML, CSS, JavaScript. Use of relational databases (PostgreSQL). I also work with UNITY and C# for develop aumented reality applications.',
