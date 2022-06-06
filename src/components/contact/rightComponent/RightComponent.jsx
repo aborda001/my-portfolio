@@ -1,12 +1,17 @@
 import React, { useRef } from "react";
 import { send } from "@emailjs/browser";
+
 import Download from "../../download/Download";
 
 const RightComponent = () => {
   const form = useRef(null);
 
   const handleSubmit = () => {
-    const { SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY } = process.env;
+    const {
+      REACT_APP_SERVICE_ID,
+      REACT_APP_TEMPLATE_ID,
+      REACT_APP_PUBLIC_KEY,
+    } = process.env;
     const formData = new FormData(form.current);
     const data = {
       name: formData.get("name"),
@@ -16,7 +21,12 @@ const RightComponent = () => {
     };
     form.current.reset();
 
-    send(SERVICE_ID, TEMPLATE_ID, data, PUBLIC_KEY);
+    send(
+      REACT_APP_SERVICE_ID,
+      REACT_APP_TEMPLATE_ID,
+      data,
+      REACT_APP_PUBLIC_KEY
+    );
   };
 
   return (
