@@ -1,12 +1,15 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { send } from "@emailjs/browser";
 
 import Download from "../../download/Download";
 
 const RightComponent = () => {
   const form = useRef(null);
+  const [isSending, setSending] = useState(false);
+  const [isSended, setSended] = useState(false);
 
   const handleSubmit = () => {
+    setSending(true);
     const {
       REACT_APP_SERVICE_ID,
       REACT_APP_TEMPLATE_ID,
@@ -19,14 +22,16 @@ const RightComponent = () => {
       message: formData.get("message"),
       subject: formData.get("subject"),
     };
-    form.current.reset();
 
     send(
       REACT_APP_SERVICE_ID,
       REACT_APP_TEMPLATE_ID,
       data,
       REACT_APP_PUBLIC_KEY
-    );
+    ).then(() => {
+      form.current.reset();
+      setSended(true);
+    });
   };
 
   return (
@@ -67,8 +72,12 @@ const RightComponent = () => {
           ></textarea>
         </div>
         <div className="submit-btn">
-          <button className="send-btn" onClick={handleSubmit} type="button">
-            <span className="text">SUBMIT</span>
+          <button
+            className={`send-btn ${isSended && "sending"} `}
+            onClick={handleSubmit}
+            type="button"
+          >
+            <span className="text">{isSending ? "SENDING..." : "SUBMIT"}</span>
             <i className="fas fa-check icon"></i>
           </button>
           <Download />
