@@ -12,7 +12,7 @@
 
 #projects .portfolios .portfolio-item img {
   width: 100%;
-  height: 300px;
+  aspect-ratio: 16/9;
   object-fit: cover;
   border-radius: 15px;
 }
@@ -20,7 +20,7 @@
 #projects .portfolios .portfolio-item .hover-items {
   width: 100%;
   height: 100%;
-  /* background-color: var(--color-secondary); */
+  background-color: var(--color-primary);
   position: absolute;
   left: 0;
   top: 0;
@@ -40,6 +40,13 @@
   margin-bottom: 1.5rem;
 }
 
+#projects .portfolios .portfolio-item .hover-items h3 + p {
+  overflow: scroll;
+  height: 6rem;
+  color: var(--color-white);
+  margin: 0.5rem 1rem 2rem;
+}
+
 #projects .portfolios .portfolio-item .hover-items .icons {
   display: flex;
   justify-content: center;
@@ -47,7 +54,7 @@
 }
 
 #projects .portfolios .portfolio-item .hover-items .icons .icon {
-  background-color: var(--color-primary);
+  background-color: var(--color-black);
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -80,7 +87,7 @@
 
 #projects .portfolio-item:hover .image {
   filter: blur(5px);
-  transform: scale(1);
+  transform: scale(0.9);
 }
 
 @media screen and (max-width: 1250px) {

@@ -9,13 +9,26 @@ const ProjectsItem = ({ title, image, description, code, link }) => {
       </div>
       <div className="hover-items">
         <h3>{title}</h3>
+        <p>{description}</p>
         <div className="icons">
-          <a href={code} className="icon" target="_blank" rel="noopener noreferrer">
+          <a
+            href={code}
+            className="icon"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fab fa-github"></i>
           </a>
-          <a href={link} className="icon" target="_blank" rel="noopener noreferrer">
-            <i className="fas fa-link"></i>
-          </a>
+          {link && (
+            <a
+              href={link}
+              className="icon"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fas fa-link"></i>
+            </a>
+          )}
         </div>
       </div>
     </div>

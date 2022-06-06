@@ -1,58 +1,40 @@
 const useGetProjects = () => {
   const data = [
     {
-      title: 'Web Development',
+      title: 'Py Shop',
       image:
-        'https://images.unsplash.com/photo-1626968361222-291e74711449?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+        'https://raw.githubusercontent.com/aborda001/pyShop/master/captura.png',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias voluptatum explicabo!',
-      code: 'www.github.com',
-      link: 'www.github.com',
+        'A simple web app for controlling a shop. It used flask, bootstrap and SQLITE. Can be used for any kind of shop.',
+      code: 'https://github.com/aborda001/pyShop',
+      link: '',
     },
     {
-      title: 'Mobile Development',
+      title: 'Py Task',
       image:
-        'https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
+        'https://raw.githubusercontent.com/aborda001/pyTask/main/static/img/pyTask2.png',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias voluptatum explicabo!',
-      code: 'www.github.com',
-      link: 'www.github.com',
+        'Web app for managing tasks. It uses flask, bootstrap and SQLITE.',
+      code: 'https://github.com/aborda001/pyTask',
+      link: '',
     },
     {
-      title: 'Web Development',
+      title: 'Teachers App',
       image:
-        'https://images.unsplash.com/photo-1626968361222-291e74711449?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+        'https://raw.githubusercontent.com/aborda001/web_app/master/public/images/captura.png',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias voluptatum explicabo!',
-      code: 'www.github.com',
-      link: 'www.github.com',
+        'Web app for managing teachers and subjects. It uses PHP, Apache, MySQL. You can export the data to a PDF file.',
+      code: 'https://github.com/aborda001/web_app',
+      link: '',
     },
     {
-      title: 'Mobile Development',
+      title: 'Ahorcado Game',
       image:
-        'https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
+        'https://raw.githubusercontent.com/aborda001/ahorcadopy/master/capturaImg.png',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias voluptatum explicabo!',
-      code: 'www.github.com',
-      link: 'www.github.com',
-    },
-    {
-      title: 'Web Development',
-      image:
-        'https://images.unsplash.com/photo-1626968361222-291e74711449?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
-      description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias voluptatum explicabo!',
-      code: 'www.github.com',
-      link: 'www.github.com',
-    },
-    {
-      title: 'Mobile Development',
-      image:
-        'https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
-      description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias voluptatum explicabo!',
-      code: 'www.github.com',
-      link: 'www.github.com',
+        'A fun shell game of guessing letters. It uses Python. With 3 levels of difficulty, hangman figure and colors.',
+      code: 'https://github.com/aborda001/ahorcadopy',
+      link: '',
     },
   ];
   return data;
